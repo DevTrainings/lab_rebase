@@ -2,9 +2,7 @@
 #include <cstddef>
 
 /*
- * Get absolute value of n, supports only positive numbers.
- *
- * So don't pass anything negative in here.
+ * Get absolute value of n.
  */
 int64_t abs(int64_t n) {
 	if (n > 0) {
