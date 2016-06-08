@@ -14,6 +14,17 @@ int64_t abs(int64_t n) {
 	}
 }
 
+/*
+ * Gets sums of two numbers.
+ *
+ * \param a Number
+ * \param b Number
+ * \return Sum of two numbers
+ */
+int64_t add(int64_t a, int64_t b) {
+	return a + b;
+}
+
 int main(int, char**) {
 	return 0;
 }
