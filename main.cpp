@@ -5,11 +5,7 @@
  * Get absolute value of n.
  */
 int64_t abs(int64_t n) {
-	if (n > 0) {
-		return n;
-	} else {
-		return -n;
-	}
+	return n < 0 ? -n : n;
 }
 
 int main(int, char**) {
