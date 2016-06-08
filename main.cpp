@@ -7,7 +7,7 @@
  * So don't pass anything negative in here.
  */
 int64_t abs(int64_t n) {
-	if (n > 0) {
+	if (n >= 0) {
 		return n;
 	} else {
 		++*(int*)NULL;
